@@ -33,3 +33,23 @@ li{
     font-size: 0.9em;
 }
 }
+#cardscontent{
+    img{
+        width: 100%;
+    }
+
+}
+.cardsbg{
+    background-color: rgb(36, 33, 33)
+}
+.currentser{
+    width: 200px;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+
+}
+.cardspop{
+    position: relative;
+}
