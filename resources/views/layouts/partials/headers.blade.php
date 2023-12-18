@@ -1,4 +1,4 @@
-<div>
+<div id="headercomponent">
     <div class="container d-flex justify-content-between pt-4 mb-4" >
        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
        <div>
@@ -17,3 +17,7 @@
        </div>
     </div>
    </div>
+   <div class="imgcont">
+    <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
+ </div>
+
