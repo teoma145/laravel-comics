@@ -22,7 +22,9 @@
 
     </section>
  </main>
+ @include('../layouts.partials.merch')
 @endsection
+
 @section('info')
 <div class="maindc">
     <div class="container d-flex pb-5">
