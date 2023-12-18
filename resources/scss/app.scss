@@ -64,3 +64,40 @@ li{
     }
 }
 
+.maindc{
+
+    background-image: url(../img/footer-bg.jpg);
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    ul{
+        color: grey;
+
+    }
+    .imglog{
+        position: absolute;
+        top: -70px;
+        right: 70px;
+    }
+}
+
+#footerattr{
+background-color: rgb(36, 33, 33);
+
+.buttonfoot{
+    border: 1px solid rgb(57, 123, 221);
+    color: white;
+    padding: 10px;
+
+}
+h2{
+    font-size: 1.3em;
+    color: rgb(57, 123, 221);
+}
+img{
+    margin-left: 10px;
+    margin-top: 45px;
+    height: 25px;
+}
+}

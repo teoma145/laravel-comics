@@ -19,6 +19,7 @@
     @include('layouts.partials.headers')
     @yield('content')
     @include('layouts.partials.merch')
+    @yield('info')
     @include('layouts.partials.footer')
 </body>
 
