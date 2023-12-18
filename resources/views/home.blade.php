@@ -3,7 +3,7 @@
 @section('title','Home')
 
 @section('content')
- <main class="cardsbg">
+ <main class="cardsbg pb-5">
     <section id="cardscontent" class="container cardspop">
         <div class="bg-info currentser">
             <h3 class="text-white fs-4">CURRENT SERIES</h3>
