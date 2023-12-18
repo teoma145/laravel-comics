@@ -40,5 +40,9 @@ e poi aggiungere subito sotto
 @import "~@fortawesome/fontawesome-free/scss/solid";
 @import "~@fortawesome/fontawesome-free/scss/brands";
 
-
+clono la repo
+composer install 
+rinomino env.example in .env
+php artisan key:generate
+npm install
 ```
