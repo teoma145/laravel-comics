@@ -3,8 +3,8 @@
        <img src="{{Vite::asset('resources/img/dc-logo.png')}}" alt="">
        <div>
            <ul class="d-flex list-unstyled mt-4 flex-wrap">
-            <li>CHARACTERS</li>
-            <li>CHARACTERS</li>
+            <li><a href="{{route('home')}}">Home</a></li>
+            <li><a href="{{route('about')}}">About</a></li>
             <li>CHARACTERS</li>
             <li>CHARACTERS</li>
             <li>CHARACTERS</li>

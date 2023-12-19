@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('db.comics');
     return view('home',compact('comics'));
-});
+})->name('home');
 Route::get('/comics/{id}', function ($id) {
     $comics = config('db.comics');
     //cercare prodotto con quell'id
@@ -28,3 +28,7 @@ Route::get('/comics/{id}', function ($id) {
         abort(404);
     }
 })->name('comics.show');
+
+Route::get('about', function () {
+    return view('about.index');
+})->name('about');
